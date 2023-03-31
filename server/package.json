@@ -7,8 +7,11 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "engines" : {
+    "node": ">=14 <15"
+  },
   "keywords": [],
-  "author": "weinvent",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cloudinary": "^1.35.0",
@@ -17,6 +20,9 @@
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    
   }
+
+  
 }
